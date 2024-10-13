@@ -5,52 +5,16 @@ import java.util.Queue;
 
 class Main{
 
-
-//    public static void main(String[] args){
-//        System.out.println("Hello");
-//
-//        for(int i=0;i<10;++i) {
-//            System.out.println("Hello");
-//            String s=new String();
-//        }
-//    }
-
-
-    /**
-     * @param obj 
-     * @return
-     */
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
-
-    /**
-     * @return 
-     */
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
-    /**
-     * 
-     */
-    public Main() {
-        super();
-    }
-
-    public static void method1(){
+    public static void main(String[] args){
         System.out.println("Hello");
-        System.out.println("Hello");
-        System.out.println("Hello");
-        System.out.println("Hello");
-    }
 
-    public void method2(){
-//        method1();
-        List<Integer> lis=new ArrayList<>();
+        for(int i=0;i<10;++i) {
+            String s=new String();
+        }
 
-        lis.add
+        Testing testing=new Testing();
+        testing.test1();
+        testing.test2();
     }
 
 }
